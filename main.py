@@ -14,7 +14,7 @@ import pandas as pd
 import tiktoken
 import openai
 import numpy as np
-from openai.embeddings_utils import distances_from_embeddings, cosine_similarity # 텍스트 데이터를 벡터화 표츌시키는 라이브러리
+from openai.embeddings_utils import distances_from_embeddings, cosine_similarity # 텍스트 데이터를 벡터화 표츌시키는 라이브러리 이다
 
 # Regex pattern to match a URL
 HTTP_URL_PATTERN = r'^http[s]{0,1}://.+$'
